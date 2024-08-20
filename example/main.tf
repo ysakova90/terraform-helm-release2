@@ -1,3 +1,4 @@
-module app {
-    source = "../"
+module "app" {
+  source = "../"
+  name   = "testapplication"
 }
